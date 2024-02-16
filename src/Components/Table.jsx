@@ -43,37 +43,7 @@ function Table() {
       </div>
 
 
-      {/* <table class=" w-10 pl-72 border-separate  border border-slate-400 ...">
-      <thead class="text-xs  text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
-            <tr>
-              <th scope="col" class=""></th>
-              <th scope="col" class="">
-                InvoiceID
-              </th>
 
-              <th scope="col" class="">
-                Date
-              </th>
-              <th scope="col" class="">
-                Customer
-              </th>
-              <th scope="col" class="">
-                Payable Amount
-              </th>
-              <th scope="col" class="">
-                Paid Amount
-              </th>
-              <th scope="col" class="">
-                Due
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            {TableData.map((e, i) => {
-              return <TableValues data={e} key={i} />;
-            })}
-          </tbody>
-</table> */}
 
     </>
   );

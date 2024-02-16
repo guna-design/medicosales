@@ -1,7 +1,7 @@
 import React from "react";
 
 function TableValues(props) {
-  const { InvoiceID, Date, Customer, PayableAmount, PaidAmount, Due } =
+  const { InvoiceID, Date, Customer, PayableAmount, PaidAmount } =
     props.data;
   return (
     <>
