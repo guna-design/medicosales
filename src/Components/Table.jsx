@@ -1,6 +1,6 @@
 import React from "react";
 
-import TableValues from "./Tablevalues";
+import TableValues from "./TableValue";
 import TableData from "./Tabledata";
 
 function Table() {
@@ -12,7 +12,7 @@ function Table() {
         <table class=" text-sm   text-gray-500 dark:text-gray-400">
           <thead class="text-xs  text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
             <tr>
-              <th scope="col" class="px-8 py-3."></th>
+              <th scope="col" class="px-8 py-3.5"></th>
               <th scope="col" class="">
                 InvoiceID
               </th>
@@ -41,10 +41,6 @@ function Table() {
           </tbody>
         </table>
       </div>
-
-
-
-
     </>
   );
 }

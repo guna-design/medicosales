@@ -11,7 +11,7 @@ function Dashboard() {
       <Form />
     
       </div>
-      <Table />
+        <Table />
     
      
     </>
