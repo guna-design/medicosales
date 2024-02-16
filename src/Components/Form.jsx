@@ -5,11 +5,12 @@ import Formdata from './Formdata'
 function Form() {
     return (
     <>
-           <div className='absolute pt-24 pl-72 text-2xl'>
+
+           <div className=' pt-8 pl-80 text-2xl'>
            Sales Information
            </div>
-            <div className=" absolute pl-72 pt-36 columns-4">
-                <div className="text-wrap text-base">
+            <div className=" pt-5 pl-80   columns-6">
+                <div className=" flex flex-nowrap gap-28 text-wrap text-base">
                     <Formdata label="Customer" placeholder="Enter Customer Name" />
                     <Formdata label="Invoice ID" placeholder="Enter Invoice ID" />
                     <Formdata label="Start Date" placeholder="Start Date" />
@@ -19,7 +20,7 @@ function Form() {
               
             
         </div>
-      
+       
     </>
     )
 }

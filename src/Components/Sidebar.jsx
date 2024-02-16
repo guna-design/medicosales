@@ -4,23 +4,29 @@ import React from "react";
 function Sidebar() {
   return (
     <>
-      <div className="fixed inset-y-0 left-0 z-30 w-64 overflow-y-auto transition duration-300 transform bg-white lg:translate-x-0 lg:static lg:inset-0 shadow-2xl ">
-        <div className="flex items-center justify-center mt-8">
-          <div className="flex items-center">
-            <span className="mx-2 text-2xl font-semibold text-blue-800">
-              Medico Sales
+     
+   
+
+      <aside
+        id="default-sidebar"
+        class="fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0 shadow-xl "
+        aria-label="Sidebar"
+      >
+        <div class="h-full px-3 py-6 overflow-y-auto    bg-gray-50 dark:bg-gray-800 ">
+          <div className="flex justify-center ">
+            <span className="mx-2 text-2xl  font-semibold text-blue-950   ">
+            Medico Sales
             </span>
           </div>
-        </div>
-
-        <nav className="mt-10">
-       
-        <a
-            className="flex items-center px-6 py-2 mt-4 text-blue-500 "
+          <ul class="  py-10 text-lg font-medium">
+         
+            <li>
+            <a
+            className="flex items-center px-6 py-2 mt-4  text-white visited:text-blue-800 ... "
             href="/"
           >
-            <i className="fa-brands fa-windows pl-8 "></i>
-            <span className="mx-3">Dahboard</span>
+            <i className="fa-brands fa-windows  sm:left-32 md:left-72 pl-8 "></i>
+            <span className="mx-3">Dashboard</span>
           </a>
           <a
             className="flex items-center px-6 py-2 mt-4 text-gray-900 opacity-50"
@@ -41,7 +47,7 @@ function Sidebar() {
             href="/"
           >
             <i className="fa-solid fa-bag-shopping pl-8"></i>
-            <span className="mx-3"> Medicine Order</span>
+            <span className="pl-2 w-auto "> Medicine Order</span>
           </a>
           <a
             className="flex items-center px-6 py-2 mt-4 text-grey-300 opacity-50"
@@ -71,8 +77,15 @@ function Sidebar() {
             <i class="fa-solid fa-circle-question pl-8"></i>
             <span className="mx-3">Help</span>
           </a>
-        </nav>
-      </div>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+
+
+
+
     </>
   );
 }
